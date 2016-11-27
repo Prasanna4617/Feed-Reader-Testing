@@ -96,7 +96,7 @@ $(function() {
         });
 
         it('checks whether there is atleast one entry',function(){
-            expect($('.feed .entry').length).not.toBeLessThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
 
     });
